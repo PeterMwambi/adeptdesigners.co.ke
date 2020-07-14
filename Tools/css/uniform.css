@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Quicksand-Light";
+  src: url(fonts/Quicksand-Light.ttf);
+}
+
+@font-face {
+  font-family: "Quicksand-Medium";
+  src: url(fonts/static/Quicksand-Medium.ttf);
+}
+@font-face {
+  font-family: "Quicksand-SemiBold";
+  src: url(fonts/static/Quicksand-SemiBold.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Quicksand-Medium";
+  background-image: url(../Assets/background-doodle.png);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Quicksand-SemiBold";
+}
+
+.icon-small {
+  max-width: 30px;
+}
+.title-small {
+  max-width: 60px;
+}
+.font-lg {
+  font-size: 72px;
+}
+.icon {
+  max-width: 50px;
+}
+.icon-large {
+  max-width: 300px;
+}
+.icon-medium {
+  max-width: 250px;
+}
+.title {
+  max-width: 150px;
+}
+.navbar li a:hover {
+  background-color: orange;
+  color: black;
+  border-radius: 5px;
+}
+.card-link {
+  background-color: rgb(221, 221, 221);
+}
+section {
+  z-index: 100;
+  opacity: 0;
+  transform: translate(0, 20px);
+  transition: all 1s;
+}
+.messageAreaResizeFalse {
+  resize: none;
+}
+section.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+.form-background {
+  filter: blur(30px);
+  opacity: 0.5;
+  background-color: rgba(253, 212, 108, 0.445);
+}
+input {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid black;
+  width: 100%;
+  background-color: transparent;
+}
+input:focus {
+  outline: none;
+  border: 3px solid rgb(255, 191, 72);
+  padding: 2% 2% 2% 2%;
+  border-radius: 10px;
+}
+
+.btn :disabled {
+  background-color: rgb(206, 202, 202);
+  color: grey;
+  border: 1px solid rgb(206, 202, 202);
+}
+.jumbotron-fluid {
+  font-family: "Quicksand-Light";
+}
+.table {
+  width: unset;
+}
+.blockquote {
+  font-style: italic;
+  font-size: 48px;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  color: orange;
+}
+.small-screen {
+  margin-right: 20%;
+}
+.form-body {
+  display: none;
+}
+.large {
+  font-size: 24px;
+}
+.toastReply {
+  position: relative;
+  min-height: 100px;
+}
+.toastReplyLeftAligned {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

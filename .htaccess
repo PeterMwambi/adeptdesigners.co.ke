@@ -1,0 +1,44 @@
+Options -Indexes
+
+
+RedirectMatch 404 /\..*$
+
+<IfModule mod_rewrite.c>
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]
+
+
+#Limit file access to get or post
+<LimitExcept GET POST>
+	Order Allow,Deny
+	Deny from all
+</LimitExcept>
+
+#Prevent fingerprinting attacks
+RewriteCond %{QUERY_STRING} PHP[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12} [NC,OR]
+RewriteCond %{REQUEST_URI} =PHP[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12} [NC]
+RewriteRule .* - [F,L]
+
+
+
+#force a trailing slash on URI path folder
+RewriteCond %{REQUEST_URI} /+[^\.]+$ 
+RewriteRule ^(.+[^/])$ %{REQUEST_URI}/ [R=301,L]
+</IfModule>
+
+
+
+# Custom error pages
+# ErrorDocument 500 /ProjectCOOPCU/error.html
+# ErrorDocument 401 /ProjectCOOPCU/error.html
+# ErrorDocument 403 /ProjectCOOPCU/error.html
+# ErrorDocument 304 /ProjectCOOPCU/error.html
+# ErrorDocument 404 /ProjectCOOPCU/error.html
+
+#disables IE compatibility view
+<IfModule mod_headers.c>
+   BrowserMatch MSIE is-msie
+   Header set X-UA-Compatible IE=edge env=is-msie
+</IfModule>
