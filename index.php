@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="Tools/FontAwesome/css/all.css">
     <link rel="stylesheet" href="Tools/css/uniform.css">
     <link rel="stylesheet" href="Tools/css/animate.css">
-    <link rel="stylesheet" href="Tools/css/home.css">
+    <link rel="stylesheet" href="Tools/css/index/home.css">
     <link rel="stylesheet" href="Tools/css/responsive.css">
     <title>Adept Designers</title>
     <script src="Tools/js/jquery.js"></script>
@@ -876,7 +876,7 @@
                         <div class="col-md-4">
                             <div class="d-flex justify-content-around ">
                                 <img class="img-fluid title pr-3 border-right border-dark ml-3" src="Tools/Assets/title.png">
-                                <nav class="navbar-expand-lg navbar-light">
+                                <nav class="secondary-navbar navbar-expand-lg navbar-light">
                                     <div class="d-flex justify-content-center">
                                         <button class="navbar-toggler" type="button" data-target="#footerNavbar" data-toggle="collapse" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
                                             <span class="navbar-toggler-icon"></span>
@@ -888,13 +888,39 @@
                                                 <a class="nav-link" href="javascript:void(0)">Home <span class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item ">
-                                                <a class="nav-link" href="javascript:void(0)">About</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">About</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Who we are</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">What we do</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Terms and conditions</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Ranking</a>
+                                                </div>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="javascript:void(0)">Products</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Contacts</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Location</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Contacts</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Live Chat</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Comment</a>
+                                                </div>
                                             </li>
+                                            <li class="nav-item dropdown">
+                                                <a class="nav-link" href="javascript:void(0)" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    Services
+                                                </a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Products</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Services</a>
+                                                </div>
+                                            </li>
+
                                             <li class="nav-item">
-                                                <a class="nav-link" href="javascript:void(0)">Account</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Contacts</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Sign in</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Create Account</a>
+                                                </div>
                                             </li>
                                         </ul>
                                     </div>

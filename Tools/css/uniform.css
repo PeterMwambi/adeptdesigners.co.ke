@@ -35,6 +35,9 @@ h5 {
 .font-lg {
   font-size: 72px;
 }
+.font-md {
+  font-size: 28px !important;
+}
 .icon {
   max-width: 50px;
 }
@@ -129,4 +132,10 @@ a:hover {
   position: absolute;
   top: 0;
   right: 0;
+}
+.btn-gradient {
+  background: linear-gradient(to right, rgb(236, 174, 40), rgb(255, 222, 131));
+}
+.secondary-navbar li a:hover {
+  color: orange;
 }

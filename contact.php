@@ -9,10 +9,11 @@
     <link rel="icon" sizes="114x114" href="Tools/Assets/icons/apple-touch-icon-iphone-retina-120x120.png">
     <link rel="icon" sizes="144x144" href="Tools/Assets/icons/apple-touch-icon-ipad-retina-152x152.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="Tools/FontAwesome/css/all.css">
     <link rel="stylesheet" href="Tools/css/uniform.css">
     <link rel="stylesheet" href="Tools/css/animate.css">
-    <link rel="stylesheet" href="Tools/css/home.css">
+    <link rel="stylesheet" href="Tools/css/contacts/contacts.css">
     <link rel="stylesheet" href="Tools/css/responsive.css">
     <title>Contact Us</title>
     <script src="Tools/js/jquery.js"></script>
@@ -55,40 +56,71 @@
 
             </nav>
             <div class="content-for-large-width-screen">
-                <div class="d-flex justify-content-center mt-5 ">
-                    <div class="col-md-6 mt-5 mb-4">
-                        <div id="carousel-0" class="carousel slide  mb-5" data-ride="carousel">
-                            <div class="carousel-inner">
+                <div class="d-flex justify-content-end mt-5">
+                    <div class="col-md-6 mt-5">
+                        <div id="carousel-0" class="carousel slide  mb-2" data-ride="carousel">
+                            <div class="carousel-inner mt-5">
                                 <div class="carousel-item active">
-                                    <h3 class="welcome-text-1 text-center font-lg text-white mt-5 pb-3 mb-2">
-                                        <i class="fas fa-quote-right"><br>
-                                            Clothes mean nothing until someone lives in them
-                                        </i>
-                                    </h3>
+                                    <blockquote class="blockquote text-right font-md">
+                                        <p class="mb-0 text-white mr-2">Shopping with adept designers was an awesome experience. Greate work Adept team</p>
+                                        <footer class="blockquote-footer mr-2">Peter</footer>
+                                        <div class="mr-2">
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </blockquote>
+
                                 </div>
                                 <div class="carousel-item animate__animated animate__slideInDown ">
-                                    <h3 class="welcome-text-1 text-center font-lg text-white pb-5 mb-3">
-                                        <h3 class="welcome-text-1 text-center font-lg text-white ">
-                                            <i class="fas fa-quote-right"><br>
-                                                Style is a way of saying who you are without having to speak</i>
-                                        </h3>
+                                    <blockquote class="blockquote text-right font-md">
+                                        <p class="mb-0 text-white mr-2">Awesome services, Good customer care support, Their deliverability was excellent.</p>
+                                        <footer class="blockquote-footer mr-2">Joe</footer>
+                                        <div class="mr-2">
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </blockquote>
                                 </div>
                                 <div class="carousel-item animate__animated animate__zoomIn">
-                                    <h3 class="welcome-text-1 text-center mt-5 mb-5 pb-5 font-lg text-white ">
-                                        <i class="fas fa-quote-right"><br>
-                                            People will stare. Make it worth their while</i>
-                                    </h3>
+                                    <blockquote class="blockquote text-right font-md">
+                                        <p class="mb-0 text-white mr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer class="blockquote-footer mr-2">Sue</footer>
+                                        <div class="mr-2">
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </blockquote>
                                 </div>
                                 <div class="carousel-item animate__animated animate__slideInDown">
-                                    <h3 class="welcome-text-1 text-center font-lg text-white mb-5 pb-4">
-                                        <i class="fas fa-quote-right"><br>
-                                            Everyday day is a pageant and the world is your runway</i>
-                                    </h3>
+                                    <blockquote class="blockquote text-right font-md">
+                                        <p class="mb-0 text-white mr-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                        <footer class="blockquote-footer mr-2">Christine</footer>
+                                        <div class="mr-2">
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                            <span class="text-white"><i class="fas fa-star"></i></span>
+                                        </div>
+                                    </blockquote>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+
+                </div>
+                <div class="d-flex justify-content-end mr-4 mb-5">
+                    <a class="btn btn-gradient mb-5" href="javascript:void(0)">View more comments</a>
                 </div>
 
             </div>
@@ -242,9 +274,9 @@
 
     <section class="pb-1">
         <div class="container mb-5">
-            <div class="card mt-5">
+            <div class="card mt-5 shadow">
                 <div class="card-header">
-                    <h1 class="text-center text-warning"><i class="fas fa-map-marker-alt"></i> Location</h1>
+                    <h1 class="text-center text-warning"><i class="fas fa-map-marker-alt"></i> Find our locations</h1>
                 </div>
                 <div class="card-body">
                     <div class="row no-gutters">
@@ -322,9 +354,9 @@
 
     <section class="mt-5 pb-5">
         <div class="container">
-            <div class="card">
+            <div class="card shadow">
                 <div class="card-header">
-                    <h1 class="text-center text-warning"><i class="fas fa-phone-square-alt"></i> Contacts</h1>
+                    <h1 class="text-center text-warning"><i class="fas fa-phone-square-alt"></i> Contact Us</h1>
                 </div>
                 <div class="card-body">
                     <div class="row mt-3 mb-5 content-for-large-width-screen">
@@ -483,7 +515,7 @@
 
     <section class="mt-5 pb-5">
         <div class="container">
-            <div class="card">
+            <div class="card shadow">
                 <div class="card-header">
                     <h1 class="text-center text-warning"><i class="fas fa-comment-alt"></i> Chat with us</h1>
                 </div>
@@ -595,9 +627,9 @@
 
     <section class="mt-5">
         <div class="container">
-            <div class="card">
+            <div class="card shadow">
                 <div class="card-header">
-                    <h1 class="text-center text-warning"><i class="fas fa-comments"></i> Comments</h1>
+                    <h1 class="text-center text-warning"><i class="fas fa-comments"></i> Leave a comment</h1>
                 </div>
                 <div class="card-body bg-dark">
                     <div class="overflow-auto mb-5">
@@ -742,7 +774,7 @@
                         <div class="col-md-4">
                             <div class="d-flex justify-content-around ">
                                 <img class="img-fluid title pr-3 border-right border-dark ml-3" src="Tools/Assets/title.png">
-                                <nav class="navbar-expand-lg navbar-light">
+                                <nav class="navbar-expand-lg secondary-navbar navbar-light">
                                     <div class="d-flex justify-content-center">
                                         <button class="navbar-toggler" type="button" data-target="#footerNavbar" data-toggle="collapse" aria-controls="footerNavbar" aria-expanded="false" aria-label="Toggle navigation">
                                             <span class="navbar-toggler-icon"></span>
@@ -754,10 +786,16 @@
                                                 <a class="nav-link" href="javascript:void(0)">Home <span class="sr-only">(current)</span></a>
                                             </li>
                                             <li class="nav-item ">
-                                                <a class="nav-link" href="javascript:void(0)">About</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">About</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Who we are</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">What we do</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Terms and conditions</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Ranking</a>
+                                                </div>
                                             </li>
                                             <li class="nav-item">
-                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown" id="dropdownInfoContactsStack">Contacts</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Contacts</a>
                                                 <div class="dropdown-menu">
                                                     <a class="dropdown-item" href="javascript:void(0)">Location</a>
                                                     <a class="dropdown-item" href="javascript:void(0)">Contacts</a>
@@ -776,7 +814,11 @@
                                             </li>
 
                                             <li class="nav-item">
-                                                <a class="nav-link" href="javascript:void(0)">Account</a>
+                                                <a class="nav-link" href="javascript:void(0)" data-toggle="dropdown">Contacts</a>
+                                                <div class="dropdown-menu">
+                                                    <a class="dropdown-item" href="javascript:void(0)">Sign in</a>
+                                                    <a class="dropdown-item" href="javascript:void(0)">Create Account</a>
+                                                </div>
                                             </li>
                                         </ul>
                                     </div>
